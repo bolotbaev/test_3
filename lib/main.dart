@@ -11,7 +11,7 @@ class FlutterTutorialApp extends StatelessWidget {
       title: "Flutter tutorial",
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("Flutter tutorial"),
+          title: const Text("Flutter tutor
           centerTitle: true,
           backgroundColor: Colors.grey[900],
         ),
@@ -37,7 +37,7 @@ class FlutterTutorialApp extends StatelessWidget {
                 style: TextStyle(color: Colors.red),
                 children: <TextSpan>[
                   TextSpan(text: "Brave"),
-                  TextSpan(text: "New
+                  TextSpan(text: "New"),
                   TextSpan(
                     text: "World",
                     style: TextStyle(
