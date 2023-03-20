@@ -37,7 +37,7 @@ class FlutterTutorialApp extends StatelessWidget {
                 style: TextStyle(color: Colors.red),
                 children: <TextSpan>[
                   TextSpan(text: "Brave"),
-                  TextSpan(text: "New"),
+                  TextSpan(text: "New
                   TextSpan(
                     text: "World",
                     style: TextStyle(
