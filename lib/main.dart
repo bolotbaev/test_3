@@ -11,46 +11,17 @@ class FlutterTutorialApp extends StatelessWidget {
       title: "Flutter tutorial",
       home: Scaffold(
         appBar: AppBar(
-          title: const Text("Flutter tutor
+          title: const Text("Flutter tutorial"),
           centerTitle: true,
           backgroundColor: Colors.grey[900],
         ),
-
-       floatingActionButton: FloatingActionButton(
-              onPressed: () {},
-              backgroundColor: Colors.grey[900],
-              child: const Text("add"),
-            ),
-
-
-        body: RichText(
-          text: const TextSpan(
-            style: TextStyle(
-              fontSize: 30.0,
-              fontStyle: FontStyle.italic,
-              color: Colors.black,
-              fontFamily: "Notable",
-            ),
-            children: <TextSpan>[
-              TextSpan(text: "Hello,"),
-              TextSpan(
-                style: TextStyle(color: Colors.red),
-                children: <TextSpan>[
-                  TextSpan(text: "Brave"),
-                  TextSpan(text: "New"),
-                  TextSpan(
-                    text: "World",
-                    style: TextStyle(
-                      decoration: TextDecoration.underline,
-                    ),
-                  ),
-                ],
-              ),
-              TextSpan(text: "!"),
-            ],
-          ),
-        ),
-
+        body: Image.memory("")
+          floatingActionButton: FloatingActionButton(
+          onPressed: () {},
+      backgroundColor: Colors.grey[900],
+      child: const Text("add"),
+    ),
+    backgroundColor: Colors.grey[300],
       ),
     );
   }
